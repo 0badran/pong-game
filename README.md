@@ -30,20 +30,19 @@
 * sound: Inside this folder we can found the background sound used in the game;
 
 ### 🎮 About the game
-* Paddles
+* <b>Paddles</b>
 <p>The paddles are moved using the keyboard keys. The paddle on the left is shown in red and moves using "w key" (up) and "s key" (down), and the paddle on the right is shown in blue and moves using "up key" (up) and "down key" (down). The paddle moves at 300 pixels per second times the frame rate. Its position on the y-axis is always checked so that it does not exceed the window boundaries.</p>
 
-* Ball
+* <b>Ball</b>
 <p>The ball initially moves from the center of the window at 150 pixels per second times the frame rate, the speed is increased by 5% of the current ball speed 150 + (150 * 0.05 = 7.5) 157.5 + (5% of current speed) and so on, this calculation occurs as the ball hits the upper and lower walls, so after twenty collisions the ball speed is about 100 pixels faster than the paddles. Don't worry, it resets to its original position after a goal is scored.</p>
 <p><b>🐞 Interesting bug</b></p>
 When the ball hits the racket from below, the ball sticks to the racket (a continuous collision situation) and stops. I used AI to improve the algorithm (when the ball hits the racket, we move the ball slightly outside the racket to avoid the continuous collision that might cause the ball to stop).
 
 ### 🔉 Sound
-<p>The sounds has been made by: [Survivor](https://open.spotify.com/artist/26bcq2nyj5GB7uRr558iQg)</p>
-<p>You can download them in: [download](https://drive.usercontent.google.com/u/0/uc?id=0B4LOzioZvYiXYUk3OUJudDNRMW8&export=download)</p>
-
-### * Hints
-<p>If you want to change the background sound, you can do so by placing the sound file in the sound folder and renaming it to `background-sound` If you don't want to, you can simply remove the folder</p>
+The sounds has been made by: [Survivor](https://open.spotify.com/artist/26bcq2nyj5GB7uRr558iQg)<br />
+You can download them in: [download](https://drive.usercontent.google.com/u/0/uc?id=0B4LOzioZvYiXYUk3OUJudDNRMW8&export=download)
+### Hint
+If you want to change the background sound, you can do so by placing the sound file in the sound folder and renaming it to `background-sound` If you don't want to, you can simply remove the folder<br/>
 Note: that the file extension must be mb3
 
 ### ⚡ How to run
