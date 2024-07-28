@@ -23,7 +23,10 @@ function love.load()
     local button_y = height / 2
 
     -- Loaded all objects on screen.
-    _G.mb3 = love.audio.newSource("sound/background-sound.mp3", "stream")
+    local open = io.open("sound/background-sound.mp3", "r")
+    if open then
+        _G.mb3 = love.audio.newSource("sound/background-sound.mp3", "stream")
+    end
     _G.video = love.graphics.newVideo("video/menu-video.ogv")
     video:play()
     _G.background = love.graphics.newImage("image/background.png")
@@ -43,7 +46,9 @@ function love.update(dt)
         -- Stop video.
         video:pause()
         -- Load audio file.
-        love.audio.play(mb3)
+        if mb3 then
+            love.audio.play(mb3)
+        end
         -- Setting left paddle control.
         if love.keyboard.isDown("up") then
             paddle_r:moveUp(dt)
