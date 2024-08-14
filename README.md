@@ -88,10 +88,10 @@ git clone https://github.com/0badran/cs50-final-project.git
 ![game screenshot](/image/game-screenshot.gif)
 
 ### 🕹 Controls
-W key: Move the left paddle up
-S key: Move the left paddle down
-Up key: Move the right paddle up
-Down key: Move the right paddle down
+<p>W key: Move the left paddle up</p>
+<p>S key: Move the left paddle down</p>
+<p>Up key: Move the right paddle up</p>
+<p>Down key: Move the right paddle down</p>
 <p>And..</p>
 
 ![this is cs50](/image/this_is_cs50.gif)
