@@ -48,7 +48,7 @@ Note: that the file extension must be mb3
 ### ⚡ How to run
 ## Linux
 #### PPA (Ubuntu)
-1. Download and install Love2d
+1. Download and install [Love 2d](https://love2d.org/)
 ```[bash]
 sudo add-apt-repository ppa:bartbes/love-stable
 sudo apt-get update
@@ -73,13 +73,7 @@ git clone https://github.com/0badran/cs50-final-project.git
 NOTE: replace love.AppImage by the name of your file
 
 ## Windows
-1. Download the exe file [Love 2d](https://love2d.org/) and install it
-2. Get game
-```[bash]
-git clone https://github.com/0badran/cs50-final-project.git
-```
-3. Create a shortcut on your desktop (or other place)
-4. Drag and drop the game folder (cs50-final-project) on Love 2d shortcut
+1. Download the game file [pong-game.v1.0.zip](https://5tdfwa.am.files.1drv.com/y4mhIjJ8IVVXNSZ7G5dAXuQPVJWpWqKg3RpMu54-Pdxksm48dmYb9VDyui76wcT_GFB7BNZeh856jj8qKY6nNMzvpMox-yh5-k78aSFuQrhJRUGRNLAR09glSWcjwRgYX84s9eQ-yES_yYbBBoQvhT7j1Wftp4rIGlHvJydOAy_Vo3GHMNbIK_nRV9LmIHhPjwGoDdp57y6_4-rLfToV_fQNg)
 
 ## Mac
 1. Download AppImage: [Love 2d](https://love2d.org/)
