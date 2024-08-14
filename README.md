@@ -72,7 +72,7 @@ git clone https://github.com/0badran/cs50-final-project.git
 ```
 NOTE: replace love.AppImage by the name of your file
 
-## <a href="#windows">Download for Windows</a>
+## Download for Windows <a href="#windows"></a>
 ### Download the game file [pong-game.v1.0.zip](https://5tdfwa.am.files.1drv.com/y4mhIjJ8IVVXNSZ7G5dAXuQPVJWpWqKg3RpMu54-Pdxksm48dmYb9VDyui76wcT_GFB7BNZeh856jj8qKY6nNMzvpMox-yh5-k78aSFuQrhJRUGRNLAR09glSWcjwRgYX84s9eQ-yES_yYbBBoQvhT7j1Wftp4rIGlHvJydOAy_Vo3GHMNbIK_nRV9LmIHhPjwGoDdp57y6_4-rLfToV_fQNg)
 
 ## Mac
